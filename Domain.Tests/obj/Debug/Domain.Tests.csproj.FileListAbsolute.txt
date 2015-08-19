@@ -1,0 +1,7 @@
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\bin\Debug\Domain.Tests.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\bin\Debug\Domain.Tests.pdb
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\bin\Debug\ClassLibrary1.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\bin\Debug\ClassLibrary1.pdb
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\obj\Debug\Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\obj\Debug\Domain.Tests.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Domain.Tests\obj\Debug\Domain.Tests.pdb

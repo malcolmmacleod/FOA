@@ -1,0 +1,38 @@
+﻿<html ng-app="claimsApp">
+    <head>
+        <link rel="stylesheet" type="text/css" href="~/content/bootstrap.min.css" />
+        <script type="text/javascript" src="~/scripts/angular.min.js"></script>
+        <script type="text/javascript" src="~/scripts/application/app.js"></script>
+    </head>
+
+    <body>
+
+         <section id="addClaim" ng-controller="ClaimController as claimCtrl">
+                <form name="claimForm" ng-model="claimCtrl.claim" ng-submit="claimForm.$valid && claimCtrl.addClaim()" novalidate>
+                    <div id="policies" ng-controller="PoliciesController as policiesCtrl">
+                        <label for="policyList">Policy</label>
+                        <select id="policyList" ng-model="claimCtrl.claim.policy" ng-options="policy.description for policy in policiesCtrl.getPolicies()">
+                            <option>Select a policy</option>
+                        </select>
+
+                    </div> 
+                    <fieldSet class="form-group">
+                        <label for="issued">Issued</label>
+                        <input id="issued" type="date" required ng-model="claimCtrl.claim.issued"></input>
+                    </fieldSet>
+                    <fieldSet class="form-group">
+                        <label for="narrative">Narrative</label>
+                        <input id="narrative" type="text" required ng-model="claimCtrl.claim.narrative"></input>
+                    </fieldSet>
+                    <fieldSet class="form-group">
+                        <label for="amount">Amount</label>
+                        <input id="amount" type="number" required ng-model="claimCtrl.claim.amount"></input>
+                    </fieldSet>
+                    <fieldset class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Add claim" />
+                    </fieldset>
+                </form> 
+            </section>
+
+    </body>
+</html>

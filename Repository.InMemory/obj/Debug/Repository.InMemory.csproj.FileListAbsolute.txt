@@ -1,0 +1,9 @@
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\bin\Debug\Repository.InMemory.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\bin\Debug\Repository.InMemory.pdb
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\bin\Debug\ClassLibrary1.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\bin\Debug\Repository.Interfaces.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\bin\Debug\ClassLibrary1.pdb
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\bin\Debug\Repository.Interfaces.pdb
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\obj\Debug\Repository.InMemory.csprojResolveAssemblyReference.cache
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\obj\Debug\Repository.InMemory.dll
+C:\Users\Windows 7 PC\documents\visual studio 2012\Projects\ClassLibrary1\Repository.InMemory\obj\Debug\Repository.InMemory.pdb

@@ -1,0 +1,14 @@
+[
+    {
+        narrative: "This is a narrative",
+        amount: 100.23,
+        paid: null,
+        issued: Date(2015, 7, 15)
+    },
+    {
+        narrative: "This is a narrative2",
+        amount: 122.23,
+        paid: null,
+        issued: Date(2015, 7, 16)
+    }
+];

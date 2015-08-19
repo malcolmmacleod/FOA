@@ -1,0 +1,26 @@
+[
+    {
+        reference: "12345",
+        policyType: "Extended",
+        description: "First policy",
+        holderName: "Malcolm Macleod",
+        contactInfo: "69 Arden Street",
+        startDate: Date(2013, 12, 14),
+        closed: null,
+        insuredAmount: 1000.00,
+        premium: 123.45,
+        paidToDate: 0
+    },
+    {
+        reference: "12346",
+        policyType: "Extended",
+        description: "Second policy",
+        holderName: "Malcolm Macleod",
+        contactInfo: "69 Arden Street",
+        startDate: Date(2014, 12, 14),
+        closed: null,
+        insuredAmount: 2000.00,
+        premium: 223.45,
+        paidToDate: 0
+    }
+]

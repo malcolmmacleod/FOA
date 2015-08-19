@@ -1,0 +1,31 @@
+﻿<html ng-app="claimsApp">
+    <head>
+        <link rel="stylesheet" type="text/css" href="~/content/bootstrap.min.css" />
+        <script type="text/javascript" src="~/scripts/angular.min.js"></script>
+        <script type="text/javascript" src="~/scripts/application/app.js"></script>
+    </head>
+
+    <body>
+       
+        <div class="container-fluid">
+           
+            <section id="allClaims" ng-controller="ClaimsController as claimsCtrl">
+                <div ng-repeat="claim in claimsCtrl.getAllClaims() | orderBy: amount">
+                    <form ng-model="claim" ng-submit="claimsCtrl.markClaimAsPaid(claim)">
+                        <p>{{ claim.policy.description }}</p>
+                        <p>{{ claim.narrative }}</p>
+                        <p>{{ claim.amount | currency }}</p>
+                        <p>{{ claim.issued | date:'dd/MM/yyyy' }}</p>
+                        <input ng-hide="claimsCtrl.isPaidToHolder(claim)" alt=""type="submit" class="btn btn-primary" value="Paid to holder" />
+                    </form>
+                    
+                    
+                </div>
+            </section>
+           
+        </div> 
+    </body>
+</html>
+
+
+
